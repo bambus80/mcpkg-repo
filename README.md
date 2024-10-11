@@ -1,2 +1,2 @@
-# mcpkg-repo
-An official repository for McPkg.
+# Official McPkg Repo
+Tests are ongoing, yeah!

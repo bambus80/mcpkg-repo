@@ -1,0 +1,14 @@
+{
+  "McPkgServer": {
+    "displayName": "Test server",
+    "packages": [
+      {
+        "name": "test",
+        "displayName": "Test package",
+        "description": "A package for testing McPkg.",
+        "labels": ["test", "example"],
+        "path": "/pkgs/test/"
+      }
+    ]
+  }
+}

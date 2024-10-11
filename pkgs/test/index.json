@@ -1,0 +1,59 @@
+{
+  "McPkgMetadataContainer": {
+    "name": "test",
+    "displayName": "Test package",
+    "description": "A package for testing McPkg.",
+    "by": "Bambus OS Team",
+    "license": "This package is NOT licensed! (It's only for testing, duh)",
+    "labels": ["test", "example"],
+    "usageInfo": "this package is only used for testing so it doesn't have anything useful\nenter `testpackage` to return semver",
+    "releaseInfo": {
+      "branches": {
+        "stable": {
+          "newest": "4.2.0",
+          "releases": [
+            {
+              "4.2.0": {
+                "date": "2024-10-11T15:56:23.811Z",
+                "requirements": {
+                  "minimumKernelVersion": { "microconsen": ">=5209" },
+                  "dependencies": [],
+                  "installSize": 42069
+                },
+                "assets": ["test-stable-4.2.0.mca"]
+              }
+            }
+          ]
+        },
+        "beta": {
+          "newest": "6.9.0",
+          "releases": [
+            {
+              "4.2.0": {
+                "date": "2024-10-11T15:56:23.811Z",
+                "requirements": {
+                  "minimumKernelVersion": { "microconsen": ">=5209" },
+                  "dependencies": [],
+                  "installSize": 42069
+                },
+                "assets": ["test-beta-4.2.0.mca"]
+              }
+            },
+            {
+              "6.9.0": {
+                "date": "2027-06-09T21:37:12.345Z",
+                "requirements": {
+                  "minimumKernelVersion": { "microconsen": ">=5300" },
+                  "dependencies": [],
+                  "installSize": 42069
+                },
+                "assets": ["test-beta-6.9.0.mca"]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "installInstructions": null
+  }
+}
