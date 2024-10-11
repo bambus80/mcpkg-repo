@@ -11,46 +11,40 @@
       "branches": {
         "stable": {
           "newest": "4.2.0",
-          "releases": [
-            {
-              "4.2.0": {
-                "date": "2024-10-11T15:56:23.811Z",
-                "requirements": {
-                  "minimumKernelVersion": { "microconsen": ">=5209" },
-                  "dependencies": [],
-                  "installSize": 42069
-                },
-                "assets": ["test-stable-4.2.0.mca"]
-              }
+          "releases": {
+            "4.2.0": {
+              "date": "2024-10-11T15:56:23.811Z",
+              "requirements": {
+                "minimumKernelVersion": { "microconsen": ">=5209" },
+                "dependencies": [],
+                "installSize": 42069
+              },
+              "assets": ["test-stable-4.2.0.mca"]
             }
-          ]
+          }
         },
         "beta": {
           "newest": "6.9.0",
-          "releases": [
-            {
-              "4.2.0": {
-                "date": "2024-10-11T15:56:23.811Z",
-                "requirements": {
-                  "minimumKernelVersion": { "microconsen": ">=5209" },
-                  "dependencies": [],
-                  "installSize": 42069
-                },
-                "assets": ["test-beta-4.2.0.mca"]
-              }
+          "releases": {
+            "4.2.0": {
+              "date": "2024-10-11T15:56:23.811Z",
+              "requirements": {
+                "minimumKernelVersion": { "microconsen": ">=5209" },
+                "dependencies": [],
+                "installSize": 42069
+              },
+              "assets": ["test-beta-4.2.0.mca"]
             },
-            {
-              "6.9.0": {
-                "date": "2027-06-09T21:37:12.345Z",
-                "requirements": {
-                  "minimumKernelVersion": { "microconsen": ">=5300" },
-                  "dependencies": [],
-                  "installSize": 42069
-                },
-                "assets": ["test-beta-6.9.0.mca"]
-              }
+            "6.9.0": {
+              "date": "2027-06-09T21:37:12.345Z",
+              "requirements": {
+                "minimumKernelVersion": { "microconsen": ">=5300" },
+                "dependencies": [],
+                "installSize": 42069
+              },
+              "assets": ["test-beta-6.9.0.mca"]
             }
-          ]
+          }
         }
       }
     },
